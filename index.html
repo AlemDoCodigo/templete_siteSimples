@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <!-- metas -->
+      <!-- autor -->
+      <meta name="autor" content="João Camargo, email:joaocamargo601@gmail.com">
+      <!-- palavras passe -->
+      <meta name="keywords" content="Bootstrap, html 5, css, sublime, javascript, git hub, github">
+      <!-- descrição sobre -->
+      <meta name="description" content="Comprovei é uma empresa de logistica.... Comprovei!">
+
+  </head>
+  <body>
+    <!-- navbar -->
+<nav class="navbar navbar-expand-lg bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-link active" aria-current="page" href="#">Home</a>
+        <a class="nav-link" href="#">Features</a>
+        <a class="nav-link" href="#">Pricing</a>
+        <a class="nav-link disabled">Disabled</a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<!-- article -->
+<article>
+  <div class="container-fluid mt-5">
+    <span class="btn shadow cColor" onclick="backgroundThemer();"><ion-icon name="moon-outline"></ion-icon></span>
+    <div class="row">
+      <div class="col-md-7">
+        <img src="img/maps2.svg" class="img-fluid">
+      </div>
+      <div class="col-md-4 mt-4">
+        <h3 style="color: #6C63FF;" class="cColor">Deseja ter rastreamento em tempo real?</h3>
+        <hr class="cColor">
+        <!-- <img src="maps2.svg" class="img-fluid"> -->
+        <p style="font-size: 1.4rem" class="cColor">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <ul>
+          <li><a href="#artigo1" class="cColor">O que é rastreamento?</a></li>
+          <li><a href="#artigo1" class="cColor">Como funciona?</a></li>
+          <li><a href="#artigo1" class="cColor">Como posso obter?</a></li>
+          <li><a href="#artigo1" class="cColor">> Outros artigos <</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</article>
+<article>
+  <div class="container">
+    <div class="row mt-5">
+      <div class="col-12 text-center">
+        <h2 class="cColor">Maps</h2>
+        <hr>
+      </div>
+      <div class="col-xl-4">
+        <img src="img/maps.svg" class="img-fluid" title="Imagem de mapa">
+      </div>
+      <div class="col-xl-6 mt-4 offset-xl-1 cColor" >
+        <h3 style="border-bottom: 1px solid #6c63ff;color: #3f3d56;" class="cColor">Localização em tempo real</h3>
+        <p style="font-size: 1.3rem;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+    </div>
+  </div>
+</article>
+
+<article>
+  <div class="container">
+    <div class="row mt-5">
+      <div class="col-12 text-center">
+        <h2 class="cColor">Monitoramento</h2>
+        <hr>
+      </div>
+      <div class="col-xl-6 mt-4">
+        <h3 style="border-bottom: 1px solid #6c63ff;color: #3f3d56;" class="cColor">Localização em tempo real</h3>
+        <p style="font-size: 1.3rem;" class="cColor">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+      <div class="col-xl-4 offset-xl-1">
+        <img src="img/monitoramento.svg" class="img-fluid" title="Imagem de mapa">
+      </div>
+    </div>
+  </div>
+</article>
+
+<article>
+  <div class="container mt-5">
+    <h3 class="cColor">Galeria</h3>
+    <span><i class="cColor">Atualizado em: 01/06/2022 22:50</i></span>
+    <!-- boot galery -->
+    <div class="row row-cols-1 row-cols-md-3 g-4 mt-4">
+      <div class="col">
+        <div class="card h-75">
+          <img src="img/maps.svg" class="card-img-top img-fluid" alt="..." style="max-height: 100%;">
+    <!--       <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div> -->
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-75">
+          <img src="img/maps2.svg" class="card-img-top img-fluid" alt="..." style="max-height: 100%;">
+        <!--   <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a short card.</p>
+          </div> -->
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-75">
+          <img src="img/maps2.svg" class="card-img-top" alt="..." style="max-height: 100%;">
+    <!--       <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+          </div> -->
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-75">
+          <img src="img/maps2.svg" class="card-img-top" alt="..." style="max-height: 100%;">
+    <!--       <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div> -->
+        </div>
+      </div>
+    </div>
+
+
+
+  </div>
+</article>
+<footer>
+  <div class="card-footer text-muted">
+    2 days ago
+  </div>
+</footer>
+
+    <!-- =============== JAVASCRIPT ===============  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+    <!-- icon -->
+    <!-- Site: https://ionic.io/ionicons/usage -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <!-- imagens usadas no site -->
+    <!-- site: https://undraw.co/search -->
+
+    <script type="text/javascript">
+      var varThemer = false;
+
+      function backgroundThemer(){
+        if (varThemer == false) {
+          document.body.style.backgroundColor = "#333";
+          const wordColor = document.querySelectorAll(".cColor");
+          for (var i = 0; i < wordColor.length; i++) {
+            wordColor[i].style.color = "white";
+          }
+          varThemer = true;
+        }
+        else
+        {
+          document.body.style.backgroundColor = "white";
+          const varColor = document.querySelectorAll(".cColor");
+          for (var i = 0; i<varColor.length;i++) {
+            varColor[i].style.color = "#333"
+          }
+          varThemer = false;
+        }
+      }
+    </script>
+  </body>
+</html>
